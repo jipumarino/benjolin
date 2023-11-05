@@ -4,7 +4,7 @@
 
 The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Netherlands in 2009 and available as an open hardware project online. It contains two oscillators (one LFO and one VCO), a voltage controlled filter and a circuit called a Rungler, which allows chaotic cross-modulation possibilities between the different parts of the circuit. Hordijk refers to the Benjolin as a circuit which has been "bent by design."
 
-The original Pure Data implementation of the Benjolin was coded by Derek Holzer in SEP-NOV 2016 in Helsinki, and it's available at https://github.com/macumbista/benjolin.
+The original Pure Data implementation of the Benjolin was coded by Derek Holzer between September and November 2016 in Helsinki, and it's available at https://github.com/macumbista/benjolin.
 
 This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.8.0, only using included libraries. I couldn't find replacements for `mmb/biquad.mmb~` and `mmb/multimode.mmb~`, so I've kept `mmb` included as Derek had.
 
@@ -56,7 +56,7 @@ The instrument can also bypass the internal oscillators and take an external aud
 
 # Changelog
 
-05/11/2023: first version for plugdata made available
+- 05/11/2023: first version for plugdata made available
 
 November 2023
 Juan Pumarino
