@@ -6,7 +6,7 @@ The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Nether
 
 The original Pure Data implementation of the Benjolin was coded by Derek Holzer in SEP-NOV 2016 in Helsinki, and it's available at https://github.com/macumbista/benjolin.
 
-This implementation is an adaptation of Derek's to make it work with plugdata v0.8.0, only using included libraries. I couldn't find replacements for `mmb/biquad.mmb~` and `mmb/multimode.mmb~`, so I've kept `mmb` included as Derek had.
+This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.8.0, only using included libraries. I couldn't find replacements for `mmb/biquad.mmb~` and `mmb/multimode.mmb~`, so I've kept `mmb` included as Derek had.
 
 # Usage
 
