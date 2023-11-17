@@ -6,11 +6,11 @@ The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Nether
 
 The original Pure Data implementation of the Benjolin was coded by Derek Holzer between September and November 2016 in Helsinki, and it's available at https://github.com/macumbista/benjolin.
 
-This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.8.0, only using included libraries.
+This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.8.1, only using included libraries.
 
 # Usage
 
-Just open `benjolin-help.pd` in plugdata 0.8.0.
+Just open `benjolin-help.pd` in plugdata 0.8.1.
 
 ## Controls
 
@@ -41,10 +41,6 @@ The matrix patchbay of the Pure Data Benjolin has 8 outputs, three control volta
 - O1 CV: Control Voltage Input to Oscillator 1
 - O2 CV: Control Voltage Input to Oscillator 2
 - FLT CV: : Control Voltage Input to the Voltage Controlled Filter
-
-# Known issues
-
-- In order to see the OUT and RUN waveforms (OUT and RUN) you will need to open the benjolin.pd subpatch in the background (just having it open is enough, you can still interact with the instrument through `benjolin-help.pd`. This is an issue with plugdata with updating the display of oscope~ objects belonging to subpatches.
 
 # Details
 
