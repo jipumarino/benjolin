@@ -6,11 +6,11 @@ The Benjolin is a standalone synthesizer designed by Rob Hordijk from the Nether
 
 The original Pure Data implementation of the Benjolin was coded by Derek Holzer between September and November 2016 in Helsinki, and it's available at https://github.com/macumbista/benjolin.
 
-This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.8.1, only using included libraries.
+This implementation is an adaptation of Derek's to make it work with [plugdata](https://plugdata.org) v0.9.2, only using included libraries.
 
 # Usage
 
-Just open `benjolin-help.pd` in plugdata 0.8.1.
+Just open `benjolin-help.pd` in plugdata 0.9.2.
 
 ## Controls
 
@@ -53,7 +53,8 @@ The instrument can also bypass the internal oscillators and take an external aud
 # Changelog
 
 - 05/11/2023: first version for plugdata made available
+- 22/09/2025: change oscope~ to scope~ to make it work with 0.9.2
 
-November 2023
+September 2025
 Juan Pumarino
 
